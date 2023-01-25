@@ -14,11 +14,11 @@ async function mongoConnect() {
   await mongoose.connect(MONGO_URL);
 }
 
-function mongoDisconnect(){
-    await mongoose.disconnect();
+async function mongoDisconnect() {
+  await mongoose.disconnect();
 }
 
 module.exports = {
   mongoConnect,
-  mongoDisconnect
+  mongoDisconnect,
 };
