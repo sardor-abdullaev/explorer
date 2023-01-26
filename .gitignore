@@ -1,4 +1,5 @@
 node_modules
+server/public/
 
 .vscode/*
 !.vscode/settings.json
@@ -12,3 +13,4 @@ node_modules
 
 # Built Visual Studio Code Extensions
 *.vsix
+
